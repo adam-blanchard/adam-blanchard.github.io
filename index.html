@@ -19,13 +19,31 @@
         height: 100%;
 
     }
+
+    .bg-img1, img-academic {
+        position: relative;
+ 	    opacity: 0.85;
+
+  	    background-attachment: fixed;
+  	    background-position: center;
+  	    background-repeat: no-repeat;
+  	    background-size: cover;
+
+    }
+
+	.bg-img1 {
+		background-image: url("https://images.unsplash.com/photo-1460186136353-977e9d6085a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    	height: 100%; 
+	}
+
+	
     </style>
 	
 	<script>
 	</script>
 </head>
 
-<body class="w3-light-grey">
+<body class="w3-light-grey bg-img1">
 
 	<!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -36,13 +54,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 			<h1><b>Adam Blanchard</b></h1>
 			<p><span class="w3-tag">PERSONAL WEBSITE</span></p>
 		</header>
-
+		
 		<!-- Grid -->
 		<div class="w3-row">
 
 			<!-- Blog entries -->
-			<div class="w3-col l8 s12">
-	
+			<div class="w3-col l8">
+				
 				<!-- Blog entry -->
 				<div class="w3-card-4 w3-margin w3-white">
 					<div class="w3-container">
@@ -57,9 +75,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 						</div>
 					</div>
 				</div>
-				<hr>
-				
-				<!-- More blog entries -->
+				<br>
 				
 				<!-- End of blog entries -->
 			</div>
@@ -70,10 +86,21 @@ and is wrapped around the whole page content, except for the footer in this exam
 				<div class="w3-card w3-margin w3-margin-top">
 					<div class="w3-container w3-white">
 						<h4><b>About</b></h4>
-						Nothing much really... This site mainly just acts as a sandbox for messing around. <i class="fas fa-fish fa-spin"></i></p>
+						<p>Nothing much really... This site mainly just acts as a sandbox for messing around. <i class="fas fa-fish fa-spin"></i></p>
+						
 					</div>
 				</div>
-				<hr>
+				<br>
+				
+				<!-- Adcademic -->
+				<div class="w3-card w3-margin w3-margin-top">
+					<img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" style="width:100%;"></span>
+					<div class="w3-container w3-white">
+						<h4><b>Academic History</b></h4>
+						<p>Nothing much really... This site mainly just acts as a sandbox for messing around. <i class="fas fa-fish fa-spin"></i></p>
+					</div>
+				</div>
+				<br>
 
 				<!-- More additional info -->
 			
@@ -86,6 +113,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		<!-- End of w3-content -->
 	</div>
 
+	
 </body>
 
 </html>
