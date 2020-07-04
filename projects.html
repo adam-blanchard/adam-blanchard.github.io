@@ -3,11 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects</title>
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Adam Blanchard - Projects</title>
   </head>
   <body>
-    <ul>
-      <a href="projects/movie-seat-booking"><li>Seat booking app</li></a>
-    </ul>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link active">Projects</a>
+        </nav>
+      </header>
+      <main role="main" class="inner cover">
+        <ul>
+          <a href="projects/movie-seat-booking"><li>Seat booking app</li></a>
+        </ul>
+      </main>
+      <footer class="mt-auto text-center">
+        <p>
+          Photo by
+          <a href="https://unsplash.com/@dnevozhai">Denys Nevozhai</a>
+          on
+          <a href="https://unsplash.com">Unsplash</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
