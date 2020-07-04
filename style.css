@@ -105,9 +105,9 @@ ul.icons li {
 }
 
 .credit-link {
-  color: #0366d6;
+  color: #fff;
 }
 
 .credit-link:hover {
-  color: #fff;
+  color: #0366d6;
 }
