@@ -111,3 +111,15 @@ ul.icons li {
 .credit-link:hover {
   color: #0366d6;
 }
+
+@media (max-width: 575px) {
+  .wrapper {
+    height: 46em;
+  }
+  .main {
+    height: 44em;
+  }
+  .credit {
+    display: none;
+  }
+}
