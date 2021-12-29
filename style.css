@@ -37,7 +37,7 @@ body {
   top: 60px;
   left: 80px;
   width: 300px;
-  size: 32pt;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: bold;
   line-height: 28pt;
 }
