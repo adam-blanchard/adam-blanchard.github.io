@@ -2,16 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-
     <title>Adam Blanchard</title>
+    <style>
+      html {
+        max-width: 70ch;
+        padding: 3em 1em;
+        margin: auto;
+        line-height: 1.75;
+        font-size: 1.25em;
+        background-color: #3D8361;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 3em 0 1em;
+      }
+
+      p,
+      ul,
+      ol {
+        margin-bottom: 2em;
+        color: #FFF;
+        font-family: sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <div class="intro">
-      <img src="/img/headshot.png" width="200px" height="200px"></img>
-      <h1>Hi, I’m Adam - an IT professional and Software Engineer based in the UK.</h1>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img
+        src="/img/headshot.png"
+        alt="headshot"
+        width="250ch"
+        style="border-radius: 100%"
+      />
+      <p style="text-align: center;">Hi, I'm Adam - an information security professional and creative from the UK.</p>
     </div>
   </body>
 </html>
